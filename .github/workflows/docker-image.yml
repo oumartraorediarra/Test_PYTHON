@@ -18,4 +18,4 @@ jobs:
     - name: Build
       run: docker build -t helloworld .
     - name : Run
-      run : docker run --rm -ti --name helloworlnew helloworld
+      run : docker run --rm  --name helloworlnew helloworld
